@@ -1,0 +1,177 @@
+@use './mixins' as *;
+
+.site-header-container {
+  margin: 8px 24px;
+}
+
+.site-header-menu {
+  display: flex;
+  flex-direction: row;
+  //justify-content: space-between;
+}
+
+.site-header-nav {
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  .nav1 li {
+    margin: 12px 24px;
+  }
+
+  .nav2 li {
+    background-color: #f27c02;
+    width: 224px;
+    height: 27px;
+    text-align: center;
+    border-radius: 90px;
+
+    a {
+      color: #fff;
+    }
+  }
+
+}
+
+.hero {
+  background: url(../img/mainvisual/Rectangle.png) no-repeat center center;
+  background-size: cover;
+  height: 560px;
+}
+
+.main-nav {
+  ul {
+    list-style: none;
+    text-align: right;
+  }
+
+  li {
+    display: inline-block;
+    margin: 16px 24px;
+    font-weight: bold;
+    font-size: 20;
+  }
+  a {
+    text-decoration: none;
+    color: #053f5c;
+  }
+}
+
+.main-logo {
+ text-align: center;
+  margin: 190px auto 32px;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h2 {
+  margin: 64px 360px auto;
+  color: #053f5c;
+  border-bottom: 2px solid;
+  width: 560px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.popularity {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.popularity-sec{
+  width: 50%;
+  position: relative;
+  margin: 64px;
+  box-sizing: border-box;
+
+  img {
+     width: 400px;
+  height: 296px;
+
+  }
+}
+.popularity-text {
+
+  background-color: rgba($color:  #f27c02, $alpha: 0.8);
+  width: 400px;
+  height: 296px;
+    position: absolute;
+  transform: translate(232px,-182px);
+  margin: 15px 44px;
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+p {
+  font-size: 20px;
+  font-weight: 200;
+  
+}
+
+}
+
+.area {
+  background-color: #429ebd;
+
+
+  h2{
+    color: #fff;
+  }
+
+   h3 {
+    background-color: #fff;
+    color: #053f5c;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+  .lesson {
+    margin-top: 64px;
+  }
+
+ .lesson-sec {
+  background-color: #fff;
+  width: 608px;
+  height: 351px;
+  margin: 22px 77px 20px 20px;
+  display: flex;
+
+  img {
+    margin: 16px 27px;
+    
+  }
+  
+ }
+
+ .lesson-text {
+
+  
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 20px;
+  }
+ }
