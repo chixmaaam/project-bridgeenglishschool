@@ -42,6 +42,32 @@ body {
 .site-header-nav .nav2 li a {
   color: #fff;
 }
+.site-header-nav button.nav-inquiry {
+  border: 2px solid #053f5c;
+  width: 238px;
+  height: 73px;
+  border-radius: 90px;
+}
+.site-header-nav button.nav-inquiry img {
+  width: 37px;
+  height: 30px;
+}
+.site-header-nav button.nav-inquiry a {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+}
+.site-header-nav button.nav-inquiry .tel-text {
+  justify-content: center;
+}
+.site-header-nav button.nav-inquiry p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.site-header-nav button.nav-inquiry .tel-number {
+  font-size: 20px;
+  margin-top: 6px;
+}
 
 .hero {
   background: url(../img/mainvisual/Rectangle.png) no-repeat center center;
